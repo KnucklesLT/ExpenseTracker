@@ -1,8 +1,8 @@
 import "./ExpenseItem.css";
 import ExpenseDate from "./ExpenseDate";
+
 const ExpenseItem = ({ title, amount, date }) => {
   
-
   return (
     <div className="expense-item">
       <ExpenseDate date={date}/>
