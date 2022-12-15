@@ -1,9 +1,9 @@
 import './ExpenseFilter.css'
 
-const ExpenseFilter = ({onChangerFilter, selectedYear}) => {
+const ExpenseFilter = ({onChangeFilter, selectedYear}) => {
 
   const  dropdownChangeHandler = (evt) => {
-    onChangerFilter(evt.target.value)
+    onChangeFilter(evt.target.value)
   }
   
   return (  
